@@ -1,0 +1,22 @@
+h1 {
+    background-color: rgb(142, 206, 231);
+
+}
+
+p {
+    background-color: rgb(179, 135, 219);
+}
+
+h2 {
+    background-color: rgb(223, 116, 223);
+}
+
+#p2{
+    background-color: rgb(192, 239, 121);
+}
+
+.estilo{
+    background-color: rgb(236, 196, 116);
+    height: 600px;
+    width: 500px;
+}
