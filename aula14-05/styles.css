@@ -1,0 +1,36 @@
+body{
+
+    background-color: rgb(146, 168, 255);
+
+}
+
+h1{
+
+    background-color: rgb(25, 89, 216);
+    text-align: center;
+    font-size: 45px;
+    padding: 10px;
+    border: 2px solid black;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+
+h2{
+
+    background-color: rgb(48, 124, 255);
+    font-size: 30px;
+    padding: 20px;
+    border: 2px solid black;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+pre{
+
+    background-color: rgb(79, 129, 255);
+    font-size: 20px;
+    border: 2px solid black;
+
+}
