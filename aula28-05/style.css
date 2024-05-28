@@ -1,0 +1,92 @@
+body{
+
+    background-color: rgb(14, 42, 91);
+
+}
+
+h1{
+
+    background-color: rgb(214, 132, 43);
+    text-align: center;
+    font-size: 45px;
+    padding: 10px;
+    border-left: 2px solid black;
+    font-family: arial;
+}
+
+h2{
+
+    background-color: rgb(145, 185, 255);
+    font-size: 30px;
+    padding: 20px;
+    border: 2px solid black;
+    font-family: arial;
+
+}
+
+pre{
+
+    background-color: #DEDEDE;
+    font-size: 20px;
+}
+
+.table1{
+
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 20px;
+
+}
+
+.table1 tr{
+
+    background-color: orange;
+    width: 100%;
+}
+
+.table1 td{
+
+    background-color: white;
+    padding: 10px;
+}
+
+.table2{
+
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 20px;
+
+}
+
+.table2 tr{
+
+    background-color: rgb(151, 215, 95);
+    width: 100%;
+}
+
+.table2 td{
+
+    background-color: white;
+    padding: 10px;
+}
+
+.table3{
+
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 20px;
+
+}
+
+.table3 tr{
+
+    background-color: rgb(95, 155, 215);
+    width: 100%;
+}
+
+.table3 td{
+
+    background-color: white;
+    padding: 10px;
+}
+
