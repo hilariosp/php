@@ -3,10 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
+
+    <h1>Atividade</h1>
+
     <?php
 
     $alunos_nota = [
@@ -23,39 +26,54 @@
     print_r ($alunos_nota);
     echo "</pre>";
 
-    echo "<h1>Alunos Aprovados</h1>";
+?>
+<h2>Alunos Aprovados</h2>
+<pre>
+<?php
+
+    
 
     foreach ($alunos_nota as $aluno){
 
         if ($aluno['nota']>=7){
 
-            echo "<h2>" . $aluno['nome']. ": " . $aluno['nota'] . "<br>" . "</h2>";
+            echo $aluno['nome']. ": " . $aluno['nota'] . "<br>";
 
         }
     }  
-
-    echo "<h1>Alunos Reprovados</h1>";
-
+   
+?>
+</pre>
+<h2>Alunos Reprovados</h2>
+<pre>
+<?php
     foreach ($alunos_nota as $aluno){
 
         if ($aluno['nota']<3){
 
-            echo "<h2>" . $aluno['nome']. ": " . $aluno['nota'] . "<br>" . "</h2>";
+            echo $aluno['nome']. ": " . $aluno['nota'] . "<br>";
 
         }
     }  
+?>
+</pre>
 
-    echo "<h1>Alunos na Final</h1>";
+<h2>Alunos na Final</h2>
+
+<pre>
+<?php
+
+
 
     foreach ($alunos_nota as $aluno){
 
         if ($aluno['nota']<7 && $aluno['nota']>3){
 
-            echo "<h2>" . $aluno['nome']. ": " . $aluno['nota'] . "<br>" . "</h2>";
+            echo $aluno['nome']. ": " . $aluno['nota'] . "<br>";
 
         }
     }  
 ?>
-
+</pre>
 </body>
 </html>
