@@ -1,21 +1,27 @@
 body{
 
     background-color: rgb(14, 42, 91);
-    font-family: arial;
+
 }
 
 h1{
 
     background-color: rgb(214, 132, 43);
     text-align: center;
-    border-left: 8px solid black;
-    border-bottom: 8px solid black;
-    font-size: 50px;
+    font-size: 45px;
+    padding: 10px;
+    border-left: 2px solid black;
+    font-family: arial;
 }
 
-p{
+h2{
 
-    font-size: 350px;
+    background-color: rgb(145, 185, 255);
+    font-size: 30px;
+    padding: 20px;
+    border: 2px solid black;
+    font-family: arial;
+
 }
 
 pre{
