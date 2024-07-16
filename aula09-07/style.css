@@ -1,0 +1,30 @@
+body{
+
+    background-color: rgb(3, 144, 251);
+}
+
+table{
+
+    margin-top:25px;
+    border-collapse: collapse;
+    width:100%;
+    
+}
+
+tr{
+
+    border: 2px solid white;
+    background-color: #cd800c;
+    width: 320px;
+    height: 30px;
+    padding: 15px;
+}
+
+td{
+
+    border: 2px solid white;
+    background-color: #eec487;
+    width: 320px;
+    height: 30px;
+    padding: 15px;
+}
